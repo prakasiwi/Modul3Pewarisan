@@ -19,7 +19,7 @@ public class Gajah extends Hewan{
     }
     public static void main(String[] args) {
         Gajah myGajah = new Gajah();
-        Hewan myHewan = new Hewan();
+        Hewan myHewan = myGajah;
         Hewan.testClassMethode();
         myHewan.testInstanceMethod();
     }
